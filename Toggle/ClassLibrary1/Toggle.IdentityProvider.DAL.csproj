@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>f08dce7e-d105-4ad4-96cd-fe9fc5a4229d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.2" />
+  </ItemGroup>
+
+</Project>
